@@ -1,0 +1,129 @@
+version: '3.8'
+
+services:
+  # Backend Service
+  backend:
+    build:
+      context: .
+      target: backend
+    container_name: learnsphere-backend
+    ports:
+      - "5001:5001"
+    environment:
+      - FLASK_ENV=production
+      - PORT=5001
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - SQLALCHEMY_DATABASE_URI=sqlite:///learnsphere.db
+    volumes:
+      - ./backend:/app
+      - learnsphere_db:/app/instance
+    networks:
+      - learnsphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Frontend Service
+  frontend:
+    build:
+      context: .
+      target: frontend-prod
+    container_name: learnsphere-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - learnsphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:80/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Combined Production Service (Alternative)
+  production:
+    build:
+      context: .
+      target: production
+    container_name: learnsphere-production
+    ports:
+      - "80:80"
+      - "5001:5001"
+    environment:
+      - FLASK_ENV=production
+      - PORT=5001
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - SQLALCHEMY_DATABASE_URI=sqlite:///learnsphere.db
+    volumes:
+      - ./backend:/app
+      - learnsphere_db:/app/instance
+    networks:
+      - learnsphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5001/", "&&", "curl", "-f", "http://localhost:80/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    profiles:
+      - production
+
+  # Database Service (PostgreSQL for production)
+  postgres:
+    image: postgres:15-alpine
+    container_name: learnsphere-db
+    environment:
+      - POSTGRES_DB=learnsphere
+      - POSTGRES_USER=learnsphere
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - learnsphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U learnsphere"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    profiles:
+      - postgres
+
+  # Redis Service (for caching and sessions)
+  redis:
+    image: redis:7-alpine
+    container_name: learnsphere-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - learnsphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    profiles:
+      - redis
+
+volumes:
+  learnsphere_db:
+    driver: local
+  postgres_data:
+    driver: local
+  redis_data:
+    driver: local
+
+networks:
+  learnsphere-network:
+    driver: bridge
