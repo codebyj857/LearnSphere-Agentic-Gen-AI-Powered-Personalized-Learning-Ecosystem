@@ -1,0 +1,361 @@
+{
+  "skills_database": {
+    "Python": {
+      "youtube": "https://www.youtube.com/watch?v=HGOBQPFzWKo",
+      "youtube_title": "Programming with Mosh - Python for Beginners (1 hr)",
+      "pdf": "https://automatetheboringstuff.com/",
+      "pdf_title": "Automate the Boring Stuff with Python (Official Site)"
+    },
+    "JavaScript": {
+      "youtube": "https://www.youtube.com/watch?v=W6NZfCO5tTE",
+      "youtube_title": "freeCodeCamp - JavaScript Course (8 hrs)",
+      "pdf": "https://eloquentjavascript.net/Eloquent_JavaScript.pdf",
+      "pdf_title": "Eloquent JavaScript Free Book"
+    },
+    "React": {
+      "youtube": "https://www.youtube.com/watch?v=u6QATStpad0",
+      "youtube_title": "freeCodeCamp - React Course (11 hrs)",
+      "pdf": "https://react.dev/learn",
+      "pdf_title": "Official React Documentation"
+    },
+    "TypeScript": {
+      "youtube": "https://www.youtube.com/watch?v=gp5H0Vw39yw",
+      "youtube_title": "Traversy Media - TypeScript Crash Course",
+      "pdf": "https://www.typescriptlang.org/docs/",
+      "pdf_title": "TypeScript Official Handbook"
+    },
+    "Data Structures": {
+      "youtube": "https://www.youtube.com/watch?v=8hly31xqFZM",
+      "youtube_title": "freeCodeCamp - Data Structures (8 hrs)",
+      "pdf": "https://opendatastructures.org/ods-java.pdf",
+      "pdf_title": "Open Data Structures (Free Textbook)"
+    },
+    "Algorithms": {
+      "youtube": "https://www.youtube.com/watch?v=HtSuA80QTyo",
+      "youtube_title": "MIT OpenCourseWare - Introduction to Algorithms",
+      "pdf": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+      "pdf_title": "MIT Algorithm Lecture Notes"
+    },
+    "Machine Learning": {
+      "youtube": "https://www.youtube.com/watch?v=bxe2T-V8XRs",
+      "youtube_title": "Andrew Ng - Machine Learning Specialization",
+      "pdf": "https://www.deeplearningbook.org/",
+      "pdf_title": "Deep Learning Book (MIT Press)"
+    },
+    "SQL": {
+      "youtube": "https://www.youtube.com/watch?v=xiUTqnI6xk8",
+      "youtube_title": "freeCodeCamp - SQL Tutorial (4 hrs)",
+      "pdf": "https://www.postgresql.org/docs/current/sql.html",
+      "pdf_title": "PostgreSQL Official SQL Documentation"
+    },
+    "Web Development": {
+      "youtube": "https://www.youtube.com/watch?v=ErNvNIHo7Hs",
+      "youtube_title": "freeCodeCamp - Web Development Course (12 hrs)",
+      "pdf": "https://www.w3schools.com/",
+      "pdf_title": "W3Schools Web Development Reference"
+    },
+    "Git & Version Control": {
+      "youtube": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+      "youtube_title": "freeCodeCamp - Git & GitHub Crash Course",
+      "pdf": "https://git-scm.com/book/en/v2",
+      "pdf_title": "Pro Git Book (Free)"
+    },
+    "CSS & Tailwind": {
+      "youtube": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+      "youtube_title": "Tailwind CSS Crash Course",
+      "pdf": "https://tailwindcss.com/docs",
+      "pdf_title": "Tailwind CSS Official Documentation"
+    },
+    "REST APIs": {
+      "youtube": "https://www.youtube.com/watch?v=WXsD0ZgxjRU",
+      "youtube_title": "freeCodeCamp - REST API Tutorial",
+      "pdf": "https://restfulapi.net/",
+      "pdf_title": "RESTful API Design Guide"
+    },
+    "Flask": {
+      "youtube": "https://www.youtube.com/watch?v=Z1RJmh_OqeA",
+      "youtube_title": "freeCodeCamp - Flask by Example (5 hrs)",
+      "pdf": "https://flask.palletsprojects.com/",
+      "pdf_title": "Flask Official Documentation"
+    },
+    "Docker": {
+      "youtube": "https://www.youtube.com/watch?v=Kyx2PsuwomE",
+      "youtube_title": "freeCodeCamp - Docker Crash Course",
+      "pdf": "https://docs.docker.com/",
+      "pdf_title": "Docker Official Documentation"
+    },
+    "Cloud Computing": {
+      "youtube": "https://www.youtube.com/watch?v=SOTamCETW04",
+      "youtube_title": "freeCodeCamp - AWS Basics (2 hrs)",
+      "pdf": "https://aws.amazon.com/getting-started/",
+      "pdf_title": "AWS Getting Started Guide"
+    },
+    "Data Science": {
+      "youtube": "https://www.youtube.com/watch?v=H6Du_pfuzhE",
+      "youtube_title": "freeCodeCamp - Data Science Basics (8 hrs)",
+      "pdf": "https://datasciencebook.ca/",
+      "pdf_title": "Principles of Data Science (Free Book)"
+    },
+    "AI & Deep Learning": {
+      "youtube": "https://www.youtube.com/watch?v=CS4cs2xVe7Q",
+      "youtube_title": "MIT OpenCourseWare - Deep Learning",
+      "pdf": "https://www.deeplearningbook.org/",
+      "pdf_title": "Deep Learning Book (MIT Press)"
+    },
+    "Natural Language Processing": {
+      "youtube": "https://www.youtube.com/watch?v=0megQYeE56c",
+      "youtube_title": "Stanford - NLP with Deep Learning",
+      "pdf": "https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf",
+      "pdf_title": "NLP Lecture Notes"
+    },
+    "Computer Vision": {
+      "youtube": "https://www.youtube.com/watch?v=TY8kysuS89w",
+      "youtube_title": "freeCodeCamp - Computer Vision (6 hrs)",
+      "pdf": "https://github.com/udacity/computer-vision-nanodegree/blob/master/README.md",
+      "pdf_title": "Computer Vision Course Materials"
+    },
+    "DevOps": {
+      "youtube": "https://www.youtube.com/watch?v=hQcFE0RD0_0",
+      "youtube_title": "freeCodeCamp - DevOps Course (12 hrs)",
+      "pdf": "https://www.digitalocean.com/community/books/",
+      "pdf_title": "DigitalOcean Community Books (Free)"
+    },
+    "System Design": {
+      "youtube": "https://www.youtube.com/watch?v=rjUiNHI6jlQ",
+      "youtube_title": "System Design Interview Course",
+      "pdf": "https://github.com/donnemartin/system-design-primer/blob/master/README.md",
+      "pdf_title": "System Design Primer"
+    },
+    "Android Development": {
+      "youtube": "https://www.youtube.com/watch?v=1ztosPgNCnw",
+      "youtube_title": "freeCodeCamp - Android Development (5 hrs)",
+      "pdf": "https://developer.android.com/docs",
+      "pdf_title": "Android Official Documentation"
+    },
+    "iOS Development": {
+      "youtube": "https://www.youtube.com/watch?v=Ulp1imblg5I",
+      "youtube_title": "CodeWithChris - iOS / Swift Course for Beginners",
+      "pdf": "https://developer.apple.com/swift/resources/",
+      "pdf_title": "Apple Swift Documentation"
+    },
+    "Cybersecurity": {
+      "youtube": "https://www.youtube.com/watch?v=6Z_6g70JJZQ",
+      "youtube_title": "freeCodeCamp - Cybersecurity (10 hrs)",
+      "pdf": "https://owasp.org/www-project-top-ten/",
+      "pdf_title": "OWASP Top 10 Security Risks"
+    },
+    "Blockchain": {
+      "youtube": "https://www.youtube.com/watch?v=V3V_-FhzqL8",
+      "youtube_title": "Blockchain Basics Course",
+      "pdf": "https://bitcoin.org/en/developer-documentation",
+      "pdf_title": "Bitcoin Developer Documentation"
+    },
+    "HTML & CSS & Tailwind": {
+      "youtube": "https://www.youtube.com/watch?v=1Rs2ND1ryYc",
+      "youtube_title": "Tailwind CSS Crash Course",
+      "pdf": "https://tailwindcss.com/docs",
+      "pdf_title": "Tailwind CSS Official Documentation"
+    },
+    "Psychology": {
+      "youtube": "https://thecrashcourse.com/topic/psychology/",
+      "youtube_title": "Crash Course Psychology - Full Free Series",
+      "pdf": "https://openstax.org/details/books/psychology-2e",
+      "pdf_title": "OpenStax Psychology 2e (Free Textbook)"
+    },
+    "Cognitive Psychology": {
+      "youtube": "https://www.youtube.com/watch?v=R-sVnmmw6WY",
+      "youtube_title": "Crash Course Psychology #15 - Cognition",
+      "pdf": "https://openstax.org/details/books/psychology-2e",
+      "pdf_title": "OpenStax Psychology 2e (Free Textbook)"
+    },
+    "Neuroscience": {
+      "youtube": "https://www.youtube.com/playlist?list=PLpUnbl0Sf8l2KftBSm_lcF3uUBBLUsqVD",
+      "youtube_title": "Crash Course Psychology - Neuro Psychology Playlist",
+      "pdf": "https://openstax.org/details/books/psychology-2e",
+      "pdf_title": "OpenStax Psychology 2e (Free Textbook)"
+    },
+    "Research Methods": {
+      "youtube": "https://www.youtube.com/watch?v=hFV71QPvX2I",
+      "youtube_title": "Crash Course Psychology #2 - Research & Experimentation",
+      "pdf": "https://openstax.org/details/books/psychology-2e",
+      "pdf_title": "OpenStax Psychology 2e (Free Textbook)"
+    },
+    "Clinical Psychology": {
+      "youtube": "https://www.youtube.com/watch?v=6nEL44QkL9w",
+      "youtube_title": "Crash Course Psychology #35 - Getting Help: Psychotherapy",
+      "pdf": "https://openstax.org/details/books/psychology-2e",
+      "pdf_title": "OpenStax Psychology 2e (Free Textbook)"
+    },
+    "Psychotherapy": {
+      "youtube": "https://www.youtube.com/watch?v=6nEL44QkL9w",
+      "youtube_title": "Crash Course Psychology #35 - Getting Help: Psychotherapy",
+      "pdf": "https://openstax.org/details/books/psychology-2e",
+      "pdf_title": "OpenStax Psychology 2e (Free Textbook)"
+    },
+    "Botany": {
+      "youtube": "https://www.youtube.com/watch?v=2th5lAd-77A",
+      "youtube_title": "Botany - Plant Biology Video Course",
+      "pdf": "https://openstax.org/details/books/concepts-biology",
+      "pdf_title": "OpenStax Concepts of Biology (Free Textbook)"
+    },
+    "Plant Biology": {
+      "youtube": "https://www.youtube.com/watch?v=2th5lAd-77A",
+      "youtube_title": "Botany - Plant Biology Video Course",
+      "pdf": "https://openstax.org/details/books/concepts-biology",
+      "pdf_title": "OpenStax Concepts of Biology (Free Textbook)"
+    },
+    "Ecology": {
+      "youtube": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNdTKZkV_GiIYXpV9w4WxbX",
+      "youtube_title": "Crash Course Ecology - Full Playlist",
+      "pdf": "https://openstax.org/details/books/concepts-biology",
+      "pdf_title": "OpenStax Concepts of Biology (Free Textbook)"
+    },
+    "Evolution": {
+      "youtube": "https://www.youtube.com/watch?v=P3GagfbA2vo",
+      "youtube_title": "Crash Course Biology #20 - Evolution: It's a Thing",
+      "pdf": "https://openstax.org/details/books/concepts-biology",
+      "pdf_title": "OpenStax Concepts of Biology (Free Textbook)"
+    },
+    "Conservation Biology": {
+      "youtube": "https://www.youtube.com/watch?v=Kaeyr5-O2eU",
+      "youtube_title": "Crash Course Ecology #12 - Conservation and Restoration Ecology",
+      "pdf": "https://openstax.org/details/books/concepts-biology",
+      "pdf_title": "OpenStax Concepts of Biology (Free Textbook)"
+    },
+    "Zoology": {
+      "youtube": "https://thecrashcourse.com/topic/zoo/",
+      "youtube_title": "Crash Course Zoology - Free Full Series",
+      "pdf": "https://openstax.org/details/books/concepts-biology",
+      "pdf_title": "OpenStax Concepts of Biology (Free Textbook)"
+    },
+    "Animal Behavior": {
+      "youtube": "https://www.youtube.com/watch?v=EyyDq19Mi3A",
+      "youtube_title": "Crash Course Biology #25 - Animal Behavior",
+      "pdf": "https://openstax.org/details/books/concepts-biology",
+      "pdf_title": "OpenStax Concepts of Biology (Free Textbook)"
+    },
+    "Digital Marketing": {
+      "youtube": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+      "youtube_title": "Google Digital Marketing & E-commerce Professional Certificate (Audit Free)",
+      "pdf": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "pdf_title": "Google SEO Starter Guide"
+    },
+    "SEO": {
+      "youtube": "https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce",
+      "youtube_title": "Google Digital Marketing & E-commerce Professional Certificate (Audit Free)",
+      "pdf": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "pdf_title": "Google SEO Starter Guide"
+    },
+    "Social Media Marketing": {
+      "youtube": "https://academy.hubspot.com/courses/social-media",
+      "youtube_title": "HubSpot Academy - Social Media Marketing Certification (Free)",
+      "pdf": "https://cdn2.hubspot.net/hubfs/137828/CERT%20-%20Social%20Media%20Cert%202018/Social%20Media%20Cert%20Workbook.pdf",
+      "pdf_title": "Social Media Certification Workbook (Free PDF)"
+    },
+    "Content Marketing": {
+      "youtube": "https://academy.hubspot.com/courses/content-marketing",
+      "youtube_title": "HubSpot Academy - Content Marketing Certification (Free)",
+      "pdf": "https://offers.hubspot.com/content-marketing-training-workbook",
+      "pdf_title": "Content Marketing Training Workbook (Free)"
+    },
+    "Google Analytics": {
+      "youtube": "https://skillshop.withgoogle.com/",
+      "youtube_title": "Google Skillshop - Google Analytics Certification (Free)",
+      "pdf": "https://support.google.com/analytics/answer/15440208?hl=en",
+      "pdf_title": "[GA4] Analytics Academy on Skillshop - Google Help"
+    }
+  },
+  "career_roadmaps": {
+    "Software Developer": [
+      {"step": 1, "skill": "Python", "duration": "2 weeks"},
+      {"step": 2, "skill": "Data Structures", "duration": "2 weeks"},
+      {"step": 3, "skill": "Web Development", "duration": "4 weeks"},
+      {"step": 4, "skill": "Flask", "duration": "2 weeks"},
+      {"step": 5, "skill": "System Design", "duration": "2 weeks"}
+    ],
+    "Full Stack Developer": [
+      {"step": 1, "skill": "JavaScript", "duration": "2 weeks"},
+      {"step": 2, "skill": "React", "duration": "3 weeks"},
+      {"step": 3, "skill": "SQL", "duration": "1 week"},
+      {"step": 4, "skill": "Flask", "duration": "2 weeks"},
+      {"step": 5, "skill": "Docker", "duration": "1 week"}
+    ],
+    "Data Scientist": [
+      {"step": 1, "skill": "Python", "duration": "2 weeks"},
+      {"step": 2, "skill": "SQL", "duration": "1 week"},
+      {"step": 3, "skill": "Machine Learning", "duration": "4 weeks"},
+      {"step": 4, "skill": "Data Science", "duration": "3 weeks"},
+      {"step": 5, "skill": "AI & Deep Learning", "duration": "3 weeks"}
+    ],
+    "AI/ML Engineer": [
+      {"step": 1, "skill": "Python", "duration": "2 weeks"},
+      {"step": 2, "skill": "Data Structures", "duration": "2 weeks"},
+      {"step": 3, "skill": "Machine Learning", "duration": "4 weeks"},
+      {"step": 4, "skill": "AI & Deep Learning", "duration": "4 weeks"},
+      {"step": 5, "skill": "Natural Language Processing", "duration": "3 weeks"}
+    ],
+    "Frontend Developer": [
+      {"step": 1, "skill": "HTML & CSS & Tailwind", "duration": "1 week"},
+      {"step": 2, "skill": "JavaScript", "duration": "2 weeks"},
+      {"step": 3, "skill": "React", "duration": "3 weeks"},
+      {"step": 4, "skill": "TypeScript", "duration": "1 week"},
+      {"step": 5, "skill": "Web Development", "duration": "2 weeks"}
+    ],
+    "Backend Developer": [
+      {"step": 1, "skill": "Python", "duration": "2 weeks"},
+      {"step": 2, "skill": "Data Structures", "duration": "2 weeks"},
+      {"step": 3, "skill": "SQL", "duration": "1 week"},
+      {"step": 4, "skill": "REST APIs", "duration": "2 weeks"},
+      {"step": 5, "skill": "System Design", "duration": "2 weeks"}
+    ],
+    "DevOps Engineer": [
+      {"step": 1, "skill": "Linux", "duration": "2 weeks"},
+      {"step": 2, "skill": "Docker", "duration": "2 weeks"},
+      {"step": 3, "skill": "Git & Version Control", "duration": "1 week"},
+      {"step": 4, "skill": "Cloud Computing", "duration": "3 weeks"},
+      {"step": 5, "skill": "DevOps", "duration": "2 weeks"}
+    ],
+    "AI Researcher": [
+      {"step": 1, "skill": "Python", "duration": "2 weeks"},
+      {"step": 2, "skill": "Machine Learning", "duration": "4 weeks"},
+      {"step": 3, "skill": "AI & Deep Learning", "duration": "4 weeks"},
+      {"step": 4, "skill": "Natural Language Processing", "duration": "3 weeks"},
+      {"step": 5, "skill": "Computer Vision", "duration": "3 weeks"}
+    ],
+    "Web Developer": [
+      {"step": 1, "skill": "HTML & CSS & Tailwind", "duration": "1 week"},
+      {"step": 2, "skill": "JavaScript", "duration": "2 weeks"},
+      {"step": 3, "skill": "React", "duration": "3 weeks"},
+      {"step": 4, "skill": "SQL", "duration": "1 week"},
+      {"step": 5, "skill": "REST APIs", "duration": "2 weeks"}
+    ],
+    "Psychologist": [
+      {"step": 1, "skill": "Psychology", "duration": "3 weeks"},
+      {"step": 2, "skill": "Cognitive Psychology", "duration": "2 weeks"},
+      {"step": 3, "skill": "Neuroscience", "duration": "2 weeks"},
+      {"step": 4, "skill": "Research Methods", "duration": "2 weeks"},
+      {"step": 5, "skill": "Clinical Psychology", "duration": "3 weeks"}
+    ],
+    "Botanist": [
+      {"step": 1, "skill": "Botany", "duration": "2 weeks"},
+      {"step": 2, "skill": "Plant Biology", "duration": "3 weeks"},
+      {"step": 3, "skill": "Ecology", "duration": "2 weeks"},
+      {"step": 4, "skill": "Evolution", "duration": "2 weeks"},
+      {"step": 5, "skill": "Conservation Biology", "duration": "2 weeks"}
+    ],
+    "Zoologist": [
+      {"step": 1, "skill": "Zoology", "duration": "2 weeks"},
+      {"step": 2, "skill": "Animal Behavior", "duration": "2 weeks"},
+      {"step": 3, "skill": "Ecology", "duration": "2 weeks"},
+      {"step": 4, "skill": "Evolution", "duration": "2 weeks"},
+      {"step": 5, "skill": "Conservation Biology", "duration": "2 weeks"}
+    ],
+    "Digital Marketer": [
+      {"step": 1, "skill": "Digital Marketing", "duration": "2 weeks"},
+      {"step": 2, "skill": "SEO", "duration": "2 weeks"},
+      {"step": 3, "skill": "Social Media Marketing", "duration": "2 weeks"},
+      {"step": 4, "skill": "Content Marketing", "duration": "2 weeks"},
+      {"step": 5, "skill": "Google Analytics", "duration": "1 week"}
+    ]
+  }
+}
