@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnSphere - Your Journey to Excellence</title>
+    <meta name="description" content="LearnSphere - A futuristic Career EdTech platform with AI-powered learning paths" />
+    
+    <!-- Preconnect to improve performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fallback font loading -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap">
+    
+    <style>
+      /* Critical CSS for initial load */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Times New Roman', serif;
+        background: #000814;
+        color: #ffffff;
+        overflow: hidden;
+      }
+      
+      /* Loading screen */
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000814;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out;
+      }
+      
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(6, 182, 212, 0.3);
+        border-top: 3px solid #06b6d4;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      .loading-text {
+        position: absolute;
+        bottom: 40%;
+        color: #06b6d4;
+        font-size: 18px;
+        font-family: 'Times New Roman', serif;
+        text-shadow: 0 0 10px rgba(6, 182, 212, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Initializing LearnSphere...</div>
+    </div>
+
+    <!-- React App Root -->
+    <div id="root"></div>
+    
+    <!-- Main App Script -->
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Remove loading screen when app is ready -->
+    <script>
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          const loading = document.getElementById('loading');
+          if (loading) {
+            loading.style.opacity = '0';
+            setTimeout(function() {
+              loading.style.display = 'none';
+            }, 500);
+          }
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
