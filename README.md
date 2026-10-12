@@ -40,11 +40,11 @@ LearnSphere is a personalized learning platform that models how students learn a
 
 ## 🎬 Demo
 
-**▶️ [Watch the full walkthrough](docs/videos/demo-walkthrough.mp4)**
+**▶️ [Watch the full walkthrough](demo-walkthrough.mp4)**
 
 | Interface Overview | Analytics Dashboard |
 |---|---|
-| ![Interface overview](docs/images/screenshot-1.png) | ![Analytics dashboard](docs/images/screenshot-2.png) |
+| ![Interface overview](screenshot-1.png) | ![Analytics dashboard](screenshot-2.png) |
 
 ---
 
